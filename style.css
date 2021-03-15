@@ -70,15 +70,19 @@ main p {
 }
 
 aside {
-    border: solid red;
+    color: #444444;
+}
+
+aside ul {
+    list-style-type: disc;
+}
+
+aside ul li u {
+    color: #3b3b3b;
 }
 
 .card-body {
     background-color: #f7f7f7;
-}
-
-.card-body b {
-    color: #dd9933;
 }
 
 .footer{
@@ -89,7 +93,7 @@ aside {
     background-color: #eee;
 }
 
-.confidential-content {
+.gold {
     color: #dd9933;
 }
 
