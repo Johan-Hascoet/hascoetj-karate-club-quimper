@@ -4,18 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--Lib-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="java.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <title>Karaté Club Quimper - Accueil</title>
 </head>
 
-<body class="lead">
+<body class="lead top">
     <div class="container-fluid">
-
       <header class="row">
 
         <nav class="navbar navbar-expand-lg fixed-top py-3 ">
@@ -48,60 +53,173 @@
         <!-- For demo purpose -->
       <main class="row no-gutters mt-5 justify-content-around">
         <article class="col-12 col-md-7 col-lg-7 lead">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <h1 class="title-content-home">Politique de confidentialité</h1>
+                    <hr class="rounded my-4">
 
-          <h1 class="title-content-home">Le Club</h1>
-          <hr class="rounded my-4">
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            
+                            <h2>Qui sommes-nous ?</h2>
+                            <br>
+                            <p>
+                                Nous sommes une association de Karaté se nommant le Karaté Club de Quimper depuis 1977. 
+                                Le Président actuel est Stéphane Dunas qui est également pratiquant au sein du club. 
+                                Le club se situe au collège de la Tour d’Auvergne, place de la Tourbie à Quimper. 
+                                Notre site est actuellement hébergé sur 1&1 Ionos, Montabaur (Allemagne), 0970 808 911.
+                            </p>
 
-          <h2><i>Le Karaté Club de Quimper</i></h2>
-          <br>
-          <p>Bienvenue sur le site de notre association (loi 1901) présente à Quimper depuis plus de 40 ans. </p>
-          <br>
-          <p>Au fil de ces pages mises à jour régulièrement, vous allez pouvoir découvrir ce qu’est le Karaté et plus particulièrement le <span class="gold">Goju Ryu</span>, ses racines, vous faire une idée de ce qu’est un <span class="gold">dojo</span> et ce qu’on y fait : du portrait de l’enseignant au déroulement des cours.</p>
-          <br>
-          <p>En espérant que ces différents aperçus vous donneront l’envie de franchir la porte de notre dojo.</p>
-          <br>
+                            <p>
+                                Pour la partie boutique du site, les prix sont exprimés en Euros (€) avec toutes les taxes 
+                                comprises (Pas de taxes pour nos produits), aucun frais supplémentaire n’est ajouté, 
+                                pas de livraison mais remise en main propre au sein même du dojo, possibilité de payer par chèque 
+                                ou espèce, service après vente disponible au club ou par les moyens de contact ci-dessous, 
+                                pas de délai de rétractation.
+                            </p>
 
-          <div class="row no-gutters">
-            <div class="col-12">
-              <p class="font-weight-bold">Les motivations à pratiquer un art martial comme le Karaté sont multiples :</p>
-            </div>
-          </div>
-          <div class="row text-center justify-content-md-between justify-content-center">
-            <div class="col-8 col-md-4 col-lg-3 mb-2">
-              <div class="card h-100">
-                <img src="Media/fighting.png" class="card-img-top p-3" alt="fighting">
+                            <p>
+                                Pour plus d’informations contactez-nous soit par email : 
+                                contact@karate-club-quimper.com ou par téléphone : 06.25.91.28.57
+                            </p>
+                        
+                        </div>
+                    </div>
 
-                <div class="card-body">
-                  <p class="card-text">Apprendre à <b class="gold">maîtriser</b> toutes agressions</p>
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            <hr class="rounded-small my-5">
+                            <h2>Utilisation des données personnelles collectées</h2>
+                            <br>
+                            <h3>Commentaires</h3>
+                            <br>
+                            <p>
+                                Quand vous laissez un commentaire sur notre site web, les données inscrites dans 
+                                le formulaire de commentaire, mais aussi votre adresse IP et l’agent utilisateur 
+                                de votre navigateur sont collectés pour nous aider à la détection des commentaires 
+                                indésirables.
+                            </p>
+
+                            <p>
+                                Une chaîne anonymisée créée à partir de votre adresse de messagerie 
+                                (également appelée hash) peut être envoyée au service Gravatar pour vérifier si 
+                                vous utilisez ce dernier. Les clauses de confidentialité du service Gravatar sont 
+                                disponibles ici : https://automattic.com/privacy/. Après validation de votre 
+                                commentaire, votre photo de profil sera visible publiquement à coté de votre 
+                                commentaire.
+                            </p>
+                            <br>
+
+                            <h3>Médias</h3>
+                            <br>
+                            <p>
+                                Si vous êtes un utilisateur ou une utilisatrice enregistré·e et que vous 
+                                téléversez des images sur le site web, nous vous conseillons d’éviter de 
+                                téléverser des images contenant des données EXIF de coordonnées GPS. Les 
+                                visiteurs de votre site web peuvent télécharger et extraire des données de 
+                                localisation depuis ces images.
+                            </p>
+                            <br>
+
+                            <h3>Formulaire de contact</h3>
+                            <br>
+                            <p>
+                                Les données saisies sont enregistrées pour la création de la réponse à votre demande.
+                            </p>
+                            <br>
+
+                            <h3>Cookies</h3>
+                            <br>
+                            <p>
+                                Si vous déposez un commentaire sur notre site, il vous sera proposé d’enregistrer
+                                 votre nom, adresse de messagerie et site web dans des cookies. C’est uniquement
+                                  pour votre confort afin de ne pas avoir à saisir ces informations si vous 
+                                  déposez un autre commentaire plus tard. Ces cookies expirent au bout d’un an.
+                            </p>
+                            <p>
+                                Si vous avez un compte et que vous vous connectez sur ce site, un cookie 
+                                temporaire sera créé afin de déterminer si votre navigateur accepte les cookies. 
+                                Il ne contient pas de données personnelles et sera supprimé automatiquement à la 
+                                fermeture de votre navigateur.
+                            </p>
+                            <p>
+                                Lorsque vous vous connecterez, nous mettrons en place un certain nombre de 
+                                cookies pour enregistrer vos informations de connexion et vos préférences 
+                                d’écran. La durée de vie d’un cookie de connexion est de deux jours, celle 
+                                d’un cookie d’option d’écran est d’un an. Si vous cochez « Se souvenir de moi », 
+                                votre cookie de connexion sera conservé pendant deux semaines. Si vous vous 
+                                déconnectez de votre compte, le cookie de connexion sera effacé.
+                            </p>
+                            <p>
+                                En modifiant ou en publiant une publication, un cookie supplémentaire sera 
+                                enregistré dans votre navigateur. Ce cookie ne comprend aucune donnée 
+                                personnelle. Il indique simplement l’ID de la publication que vous venez de 
+                                modifier. Il expire au bout d’un jour.
+                            </p>
+                            <br>
+
+                            <h3>Contenu embarqué depuis d’autres sites</h3>
+                            <br>
+                            <p>
+                                Les articles de ce site peuvent inclure des contenus intégrés 
+                                (par exemple des vidéos, images, articles…). Le contenu intégré depuis 
+                                d’autres sites se comporte de la même manière que si le visiteur se rendait 
+                                sur cet autre site.
+                            </p>
+                            <p>
+                                Ces sites web pourraient collecter des données sur vous, utiliser des cookies, 
+                                embarquer des outils de suivis tiers, suivre vos interactions avec ces contenus
+                                 embarqués si vous disposez d’un compte connecté sur leur site web.
+                            </p>
+
+                            <hr class="rounded-small my-5">
+
+                            <h2>Utilisation et transmission de vos données personnelles</h2>
+                            <br>
+                            <h3>Durées de stockage de vos données</h3>
+                            <br>
+                            <p>
+                                Si vous laissez un commentaire, le commentaire et ses métadonnées sont 
+                                conservés indéfiniment. Cela permet de reconnaître et approuver automatiquement 
+                                les commentaires suivants au lieu de les laisser dans la file de modération.
+                            </p>
+                            <p>
+                                Pour les utilisateurs et utilisatrices qui s’enregistrent sur notre site 
+                                (si cela est possible), nous stockons également les données personnelles 
+                                indiquées dans leur profil. Tous les utilisateurs et utilisatrices peuvent voir, 
+                                modifier ou supprimer leurs informations personnelles à tout moment 
+                                (à l’exception de leur nom d’utilisateur·ice). Les gestionnaires du site peuvent 
+                                aussi voir et modifier ces informations.
+                            </p>
+                            <br>
+                            
+                            <h3>Les droits que vous avez sur vos données</h3>
+                            <br>
+                            <p>
+                                Si vous avez un compte ou si vous avez laissé des commentaires sur le site, 
+                                vous pouvez demander à recevoir un fichier contenant toutes les données 
+                                personnelles que nous possédons à votre sujet, incluant celles que vous nous 
+                                avez fournies. Vous pouvez également demander la suppression des données 
+                                personnelles vous concernant. Cela ne prend pas en compte les données stockées 
+                                à des fins administratives, légales ou pour des raisons de sécurité.
+                            </p>
+                            <br>
+
+                            <h3>Transmission de vos données personnelles</h3>
+                            <br>
+                            <p>
+                                Les commentaires des visiteurs peuvent être vérifiés à l’aide d’un service 
+                                automatisé de détection des commentaires indésirables.
+                            </p>
+                            
+
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="col-8 col-md-4 col-lg-3 mb-2">
-              <div class="card h-100">
-                <img src="Media/karateka.png" class="card-img-top p-3" alt="karateka">
+           
+            <hr class="rounded my-4">
 
-                <div class="card-body">
-                  <p class="card-text">Pratiquer un sport de <b class="gold">combat</b></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-8 col-md-4 col-lg-3 mb-2">
-              <div class="card h-100">
-                <img src="Media/meditation.png" class="card-img-top p-3" alt="meditation">
-
-                <div class="card-body">
-                  <p class="card-text">Accéder à un <b class="gold">art de vivre</b> en pratiquant un art martial alliant technique, tonicité, assouplissements, convivialité.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <br>
-          <p>Des cours journaliers sont organisés par groupe de niveau et d’âge ce qui permet à chacun de progresser à son propre rythme.</p>
-          <p>Bonne balade sur notre site et à bientôt au Karaté Club.</p>
-          <br>
-          <p class="home-chart p-4 "><i>Le Karaté Club est charté <span class="gold">Club Sports Santé Bien-Etre</span>, encore un gage de sérieux de nos engagements.</i></p>
-          <hr class="rounded">
         </article>
         
         <aside class="col-md-3 col-lg-3 col-12 lead">
@@ -250,14 +368,15 @@
                   </ul>
                 </form>
               </div>
-
             </div>
           </div>
         </div>
       </footer>
     </div>
-
-    
+    <a class="to-top" href="#top" data-aos="fade-up" data-aos-duration="1000"><div class="triangle">▲</div></a>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

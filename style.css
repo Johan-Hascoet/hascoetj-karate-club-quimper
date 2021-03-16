@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 110vh;
     font-family: "lato", sans-serif;
@@ -10,6 +14,7 @@ header {
     padding: 1em;   
 }
 
+/* Navbar */
 .navbar {
     transition: all 0.4s;
     font-size: 1.3vw;
@@ -50,15 +55,28 @@ header {
     text-decoration: none;
 }
 
+/* Separator */
 hr.rounded {
     border-top: 4px solid #eee;
     border-radius: 5px;
 }
 
-main p {
+hr.rounded-small {
+    border-top: 4px solid #eee;
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* Main content */
+main h2, h3, p {
     color: #444444;
 }
 
+main h2, h3 {
+    font-weight: 700;
+}
+
+/* Pages title */
 .title-content-home {
     font-weight: 700;
 }
@@ -69,6 +87,7 @@ main p {
     font-weight: 700;
 }
 
+/* Aside */
 aside {
     color: #444444;
 }
@@ -81,10 +100,12 @@ aside ul li u {
     color: #3b3b3b;
 }
 
+/* Cards */
 .card-body {
     background-color: #f7f7f7;
 }
 
+/* Footer */
 .footer{
     background-color: #2d2d2d;
 }
@@ -93,19 +114,44 @@ aside ul li u {
     background-color: #eee;
 }
 
+/* Golden words */
 .gold {
     color: #dd9933;
 }
 
+/* Confidential content link */
 .confidential-content:hover {
     color: #ffbe5c;
     text-decoration: none;
 }
 
+/* Socials networks */
 .social-network a{
     color: #6c757d;
 }
 
+/* Arrow to go top */
+.to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: RGBA(221,153,51,0.67);
+    border-radius: 50%;
+    border: solid RGBA(221,153,51,0);
+    font-size: xx-large;
+    margin: 5px;
+}
+
+.triangle {
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    color: #444444;
+}
+
+/* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -174,3 +220,4 @@ aside ul li u {
         content: " |";
     }
 }
+
