@@ -67,6 +67,7 @@ hr.rounded-small {
     width: 50%;
 }
 
+
 /* Main content */
 main h2, h3, p {
     color: #444444;
@@ -74,6 +75,30 @@ main h2, h3, p {
 
 main h2, h3 {
     font-weight: 700;
+}
+
+.parallax {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)), url("Media/Stage-self-groupe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    
+}
+
+.parallax a,
+.parallax a:hover {
+    text-decoration: none;
+}
+
+.parallax a:hover {
+    color: #ebc489;
+}
+
+.title-table-self {
+    color: white;
 }
 
 /* Pages title */
@@ -101,7 +126,7 @@ aside ul li u {
 }
 
 /* Cards */
-.card {
+.animated .card {
     transition: 0.5s;
 }
 
@@ -109,12 +134,12 @@ aside ul li u {
     background-color: #f7f7f7;
 }
 
-.card:hover {
+.animated .card:hover {
     z-index: 1;
     transition: all 0.5s;
     transform: scale(1.1);
     box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
-}
+}   
 
 /* Footer */
 .footer{
@@ -158,7 +183,7 @@ aside ul li u {
     background-color: rgba(68, 68, 68);
 }
 
-.triangle {
+.arrow {
     position: absolute;
     left: 14%;
     color: #444444;
@@ -166,9 +191,18 @@ aside ul li u {
     transition: transform 0.4s;
 }
 
-.triangle:hover {
+.arrow:hover {
     transform: rotate(270deg);
     color: #dd9933;
+}
+
+/* Modals */
+.modal-body .card {
+    font-size: large;
+}
+
+.modal-body .stars {
+    color: orange;
 }
 
 /* Scrollbar */
@@ -211,6 +245,7 @@ aside ul li u {
     .navbar .nav-link:focus {
         color: #555;
     }
+
 }
 
 /* Change navbar styling on large viewports */
