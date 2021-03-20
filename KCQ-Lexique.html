@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -19,9 +19,8 @@
     <title>Karaté Club Quimper - Accueil</title>
 </head>
 
-<body >
+<body class="lead">
     <div class="container-fluid">
-
       <header class="row">
 
         <nav class="navbar navbar-expand-lg fixed-top py-3 ">
@@ -38,7 +37,7 @@
                 
                 <div id="navbarContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="KCQ-Accueil.html" class="nav-link">Accueil<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="KCQ-Accueil.html" class="nav-link">Accueil<span class="sr-only">(current)</span></a></li>
                         <li class="nav-item"><a href="KCQ-Evenements.html" class="nav-link">&#201;vénements</a></li>
                         <li class="nav-item"><a href="KCQ-Lexique.html" class="nav-link">Lexique</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
@@ -51,62 +50,122 @@
       </header>
         
         
-      <main class="row no-gutters mt-5 justify-content-around">
-        <article class="col-12 col-md-7 col-lg-7 lead">
+      <main class="row no-gutters mt-5 justify-content-around lexique">
+        <article class="col-12 col-md-7 col-lg-7">
+            <h1 class="title-content-home">Lexique</h1>
+            <hr class="rounded">
+            <br>
+            <p>Quelques notions à savoir :</p>
 
-          <h1 class="title-content-home">Le Club</h1>
-          <hr class="rounded my-4">
+            <ul>
+                <li><b>Karaté (karate-do)</b> : Voie (Do) de la main (Te) vide (Kara)</li>
+                <li><b>Goju</b> : Go (Dur / Fort) Ju (Souple)</li>
+                <li><b>Ryu</b> : Ecole</li>
+                <li><b>Karaté-gi</b> : Tenue de karaté</li>
+                <li><b>Dojo</b> : lieu où se pratique la voie</li>
+                <li><b>Senseï</b> : Celui qui sait / qui est née avant</li>
+                <li><b>Budo</b> : Guerrier ou voie martiale</li>
+            </ul>
 
-          <h2><i>Le Karaté Club de Quimper</i></h2>
-          <br>
-          <p>Bienvenue sur le site de notre association (loi 1901) présente à Quimper depuis plus de 40 ans. </p>
-          <br>
-          <p>Au fil de ces pages mises à jour régulièrement, vous allez pouvoir découvrir ce qu’est le Karaté et plus particulièrement le <span class="gold">Goju Ryu</span>, ses racines, vous faire une idée de ce qu’est un <span class="gold">dojo</span> et ce qu’on y fait : du portrait de l’enseignant au déroulement des cours.</p>
-          <br>
-          <p>En espérant que ces différents aperçus vous donneront l’envie de franchir la porte de notre dojo.</p>
-          <br>
+            <p>Vous pouvez retrouver ici le vocabulaire le plus couramment utilisé en cours.</p>
 
-          <div class="row no-gutters">
-            <div class="col-12">
-              <p class="font-weight-bold">Les motivations à pratiquer un art martial comme le Karaté sont multiples :</p>
+            <button type="button" class="btn btn-light text-dark w-100" data-toggle="collapse" data-target="#deroulement-salut">
+                <h4 class="text-left lexique-list"><span class="triangle">&#9658;</span> Déroulement du salut</h4>
+            </button>
+            <div id="deroulement-salut" class="collapse mt-2">
+                <p>Le salut se fait au début et à la fin du cours dans le calme et le respect.</p>
+                <p>(Si vous arrivez en retard et que le salut est déjà commencé, attendez avant de monter sur le tatami. Une fois le salut terminé, montez sur le tatami et allez saluer le senseï).</p>
+                <ol>
+                    <li>Le plus gradé dicte toutes les instructions à suivre pour le salut.</li>
+                    <li>« <b>Shugo</b> » : Tout le monde se met en ligne par grade</li>
+                    <li>« <b>Kiotsuke</b> » : position « Musubi Dachi (voir plus bas) » et les mains le long du corps</li>
+                    <li>« <b>Seiza</b> » : à genoux du plus gradé au moins gradé en mettant au sol la jambe gauche en première</li>
+                    <li>« <b>Mokuso</b> » : les mains sur les cuisses / la tête et le dos droit / le regard vers le sol sans fermer les yeux / en méditation / vider son esprit</li>
+                    <li>« <b>Mokuso Yame</b> » : fin de la méditation / on ouvre les yeux</li>
+                    <li>« <b>Shomen Ni Rei</b> » : salut du Shomen</li>
+                    <li>« <b>Senseï Ni Rei</b> » : salut du Senseï / « Onegai Shimasu [Onégaï Chimass] » : S’il vous plaît ou <span class="red">« Arigato Gozaimashita » : Merci beaucoup</span></li>
+                    <li><span class="red">« Otagai Ni Rei » : salut de face pour saluer l’ensemble des karatékas présents</span></li>
+                    <li>« <b>Tate</b> » : Se relever du plus gradé au moins gradé la jambe droite d’abord en faisant attention à ses orteils</li>
+                    <li>Salut debout du Senseï</li>
+                </ol>
+                <p class="font-italic red">*Phrases en rouge : salut de fin du cours</p>
             </div>
-          </div>
-          <div class="row text-center justify-content-md-between justify-content-center animated">
-            <div class="col-8 col-md-4 col-lg-3 mb-2">
-              <div class="card h-100">
-                <img src="Media/fighting.png" class="card-img-top p-3" alt="fighting">
 
-                <div class="card-body">
-                  <p class="card-text">Apprendre à <b class="gold">maîtriser</b> toutes agressions</p>
-                </div>
-              </div>
+            <button type="button" class="btn btn-light text-dark w-100 mt-2" data-toggle="collapse" data-target="#number">
+              <h4 class="text-left lexique-list"><span class="triangle">&#9658;</span> Les nombres</h4>
+            </button>
+            <div id="number" class="collapse mt-2">
+              <ul>
+                <li><b>Un</b> : Ichi</li>
+                <li><b>Deux</b> : Ni</li>
+                <li><b>Trois</b> : San</li>
+                <li><b>Quatre</b> : Shi</li>
+                <li><b>Cinq</b> : Go</li>
+                <li><b>Six</b> : Roku</li>
+                <li><b>Sept</b> : Shichi</li>
+                <li><b>Huit</b> : Hachi</li>
+                <li><b>Neuf</b> : Ku</li>
+                <li><b>Dix</b> : Ju</li>
+              </ul>
             </div>
-            <div class="col-8 col-md-4 col-lg-3 mb-2">
-              <div class="card h-100">
-                <img src="Media/karateka.png" class="card-img-top p-3" alt="karateka">
 
-                <div class="card-body">
-                  <p class="card-text">Pratiquer un sport de <b class="gold">combat</b></p>
-                </div>
-              </div>
+            <button type="button" class="btn btn-light text-dark w-100 mt-2" data-toggle="collapse" data-target="#positions">
+              <h4 class="text-left lexique-list"><span class="triangle">&#9658;</span> Les positions (Dachi)</h4>
+            </button>
+            <div id="positions" class="collapse mt-2">
+              <ul>
+                <li><b>Hidari </b>: Gauche</li>
+                <li><b>Migi </b>: Droite</li>
+                <li><b>Yoï </b>: Prêt / Mains (Gauche sur la droite) devant le ventre</li>
+                <li><b>Kamae </b>: En garde</li>
+                <li><b>Heisoku Dachi </b>: Pieds joints</li>
+                <li><b>Musubi Dachi </b>: Talon joints / pieds écartés (Angle droit)</li>
+                <li><b>Heïko Dachi </b>: Pieds parallèles / Largeur du bassin</li>
+                <li><b>Shiko Dachi </b>: Grande position / Jambes fléchies dirigées vers l’extérieur à 90° / Genoux</li>
+                <li><b>Sanchin Dachi </b>: Genoux légèrement fléchis/ 1 pied devant, 1 pied derrière / Pied arrière dirigé vers l’avant / Pied avant dirigé légèrement vers l’intérieur</li>
+                <li><b>Zenkutsu Dachi </b>: Grande position / ~ 3 pieds d’écarts entre chaque jambes / Jambe avant pliée / Jambe arrière tendue</li>
+                <li><b>Han Zenkutsu Dachi </b>: Même position que Zenkutsu Dachi mais longueur de moitié</li>
+                <li><b>Nekoashi Dachi </b>: (Neko : Chat / Ashi : Pied / Position du chat) Genoux fléchis / Tout le poids du corps sur la jambe arrièr</li>
+              </ul>
             </div>
-            <div class="col-8 col-md-4 col-lg-3 mb-2">
-              <div class="card h-100">
-                <img src="Media/meditation.png" class="card-img-top p-3" alt="meditation">
 
-                <div class="card-body">
-                  <p class="card-text">Accéder à un <b class="gold">art de vivre</b> en pratiquant un art martial alliant technique, tonicité, assouplissements, convivialité.</p>
-                </div>
-              </div>
+            <button type="button" class="btn btn-light text-dark w-100 mt-2" data-toggle="collapse" data-target="#niveaux">
+              <h4 class="text-left lexique-list"><span class="triangle">&#9658;</span> Les niveaux (Dan)</h4>
+            </button>
+            <div id="niveaux" class="collapse mt-2">
+              <ul>
+                <li><b>Haut </b>: Jodan</li>
+                <li><b>Milieu </b>: Chudan</li>
+                <li><b>Bas </b>: Gedan</li>
+              </ul>
             </div>
-          </div>
 
-          <br>
-          <p>Des cours journaliers sont organisés par groupe de niveau et d’âge ce qui permet à chacun de progresser à son propre rythme.</p>
-          <p>Bonne balade sur notre site et à bientôt au Karaté Club.</p>
-          <br>
-          <p class="home-chart p-4 "><i>Le Karaté Club est charté <span class="gold">Club Sports Santé Bien-Etre</span>, encore un gage de sérieux de nos engagements.</i></p>
-          <hr class="rounded">
+            <button type="button" class="btn btn-light text-dark w-100 mt-2" data-toggle="collapse" data-target="#defense">
+              <h4 class="text-left lexique-list"><span class="triangle">&#9658;</span> Techniques de défense (Uke)</h4>
+            </button>
+            <div id="defense" class="collapse mt-2">
+              <ul>
+                <li><b>Uke</b> : Blocage / Défense / Parade</li>
+                <li><b>Age Uke</b> : Parade vers le haut</li>
+                <li><b>Yoko Uke</b> : Parade moyenne / sur le côté</li>
+                <li><b>Baraï</b> : balayage / fauchage</li>
+                <li><b>Gedan Baraï</b> : Parade basse</li>
+                <li><b>Uchi Uke</b> : Parade de l’extérieur vers l’intérieur</li>
+                <li><b>Hiki Uke</b> : Parade en tirant / Mains ouverte / Pouces collés</li>
+                <li><b>Ko Uke</b> : Parade avec le poignet</li>
+                <li><b>Kuri Uke</b> : Parade avec le coude</li>
+                <li><b>Kosa Uke</b> : Double parade croisée poings fermés</li>
+                <li><b>Tora Guchi</b> : « Gueule du tigre » / frappe avec la paume des mains</li>
+              </ul>
+            </div>
+
+            <button type="button" class="btn btn-light text-dark w-100 mt-2" data-toggle="collapse" data-target="#defense">
+              <h4 class="text-left lexique-list"><span class="triangle">&#9658;</span> Techniques de mains</h4>
+            </button>
+            <div id="defense" class="collapse mt-2">
+              
+            </div>
+
         </article>
         
         <aside class="col-md-3 col-lg-3 col-12 lead">
@@ -255,13 +314,11 @@
                   </ul>
                 </form>
               </div>
-
             </div>
           </div>
         </div>
       </footer>
     </div>
-
     <a class="to-top" href="#top" data-aos="fade-up" data-aos-duration="1000"><div class="arrow">➔</div></a>
     <script>
         AOS.init();
