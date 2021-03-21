@@ -201,7 +201,7 @@ aside ul li u {
 
 .arrow {
     position: absolute;
-    left: 14%;
+    left: 15%;
     color: #444444;
     transform: rotate(-90deg);
     transition: transform 0.4s;
@@ -215,7 +215,6 @@ aside ul li u {
 /* Triangle list in Lexique page */
 .triangle {
     font-size: 1.1rem;
-    color: red;
 }
 
 /* Modals */
@@ -229,7 +228,7 @@ aside ul li u {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -237,7 +236,7 @@ aside ul li u {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555555; 
+    background: #919191; 
 }
 
 /*Change navbar styling on small viewports */
