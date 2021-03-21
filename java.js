@@ -8,6 +8,8 @@ $(function () {
     });
 });
 
-$(window).on('load', function() {
-    $('#cookies').modal('show');
+$(function () {
+    $(window).on('load', function() {
+        $('#cookies').modal('show');
+    });
 });
