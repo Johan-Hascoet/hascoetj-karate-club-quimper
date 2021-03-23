@@ -60,6 +60,10 @@ hr.rounded-small {
     width: 50%;
 }
 
+.logo {
+    width: 1.9rem;
+    height: auto;
+}
 
 /* Main content */
 main  {
@@ -70,6 +74,7 @@ main h2, h3 {
     font-weight: 700;
 }
 
+/* Lexique page content */
 .lexique {
     font-family: "lato", sans-serif;
     font-size: 1.2rem;
@@ -83,6 +88,7 @@ main h2, h3 {
     font-weight: 600;
 }
 
+/* Background fixed in Evenement Stage page */
 .parallax {
     background: linear-gradient(rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)), url("Media/Stage-self-groupe.jpg");
@@ -103,19 +109,15 @@ main h2, h3 {
     color: #ebc489;
 }
 
-.title-table-self {
-    color: white;
-}
-
 /* Pages title */
 .title-content-home {
     font-weight: 700;
 }
 
+/* Home page */
 .home-chart {
     background-color: #EEEEEE;
     color: #666666;
-    font-weight: 700;
 }
 
 /* Aside */
@@ -161,6 +163,7 @@ aside ul li u {
     color: #dd9933;
 }
 
+/* Red words */
 .red {
     color: red;
 }
@@ -197,11 +200,12 @@ aside ul li u {
 
 .to-top:hover {
     background-color: rgba(68, 68, 68);
+    text-decoration: none;
 }
 
 .arrow {
-    position: absolute;
-    left: 15%;
+    padding-left: 8px;
+    padding-bottom: 3px;
     color: #444444;
     transform: rotate(-90deg);
     transition: transform 0.4s;
@@ -237,6 +241,21 @@ aside ul li u {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #919191; 
+}
+
+@-moz-document url-prefix() {
+    /* Scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454545;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #919191; 
+}
 }
 
 /*Change navbar styling on small viewports */
